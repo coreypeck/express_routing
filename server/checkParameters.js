@@ -14,6 +14,7 @@ exports.checkParameters = function(song, res, songs, exception) { //Bring in the
         });
         if (exception >= 1) {
             exception = 0; //resets the exception counter
+            res.sendStatus(400);
         } else if (exception == 0) {
             pushSong.pushSong(song, res, songs);
             exception = 0;

@@ -24,7 +24,7 @@ $("document").ready(function() {
                 getSongs();
             },
             error: function(response) {
-                console.log("Attempted post/songs no work FOOL");
+                alert("Make sure your Fields aren't blank and you aren't entering a song that was previously entered");
             }
         });
     });
@@ -42,7 +42,7 @@ function getSongs() { //Gets the songs back from the server
             });
         },
         error: function(response) {
-            console.log("Something Went Screwy");
+          alert("Something went wrong");
         }
     });
 }
