@@ -1,0 +1,20 @@
+body{
+  background-color: LightGoldenRodYellow;
+}
+.jumbotron{
+  background-color: Beige;
+  padding-bottom: 15px;
+  margin-bottom: 0px;
+}
+.container{
+  text-align: center;
+  background-color: Beige;
+  border: 2px solid BurlyWood;
+}
+.eachSong{
+  width: auto;
+  overflow:auto;
+  background-color: BlanchedAlmond;
+  border: 1px solid BurlyWood;
+  text-align: center;
+}
